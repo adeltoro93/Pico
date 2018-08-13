@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #2A2A2A;
+  font-size: 14px;
+}
+ /* This allows the Navigatikon bar to become on the right  and the header PICO Left */
+.navigation {
+  background-color: #262626;
+  height: 80px;
+}
+
+.navigation .logo {
+  color: white;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 15px;
+  padding: 15px 15px 15px 35px;
+}
+.navigation ul {
+  float: right;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 35px 15px 15px;
+  margin-top: 20px;
+}
+.navigation li {
+  display: inline-block;
+}
+.navigation li.active a {
+  color: #FF6760
+}
+.navigation a {
+  color: #D8D8D8;
+  margin-right: 35px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* This allows the opening header of introducing Pico to be changed and gives depth to the font */
+.header {
+  color: #D8D8D8;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+.header h1 {
+  font-size: 48px;
+  font-weight: 300;
+  margin-top: 65px;
+}
+/* this changes the indivdual word pico */
+.header h1 > span {
+  font-weight: bold;
+}
+.header h2 > span {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 25px 0;
+}
+.header h2 > span {
+  color: #EB615B;
+}
+/* this changes the download box */
+.header a {
+  background-color: #FF6760;
+  border: none;
+  border-radius: 10px;
+  color: #FFFFFF;
+  display: inline-block;
+  margin: 10px 0 75px 0;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* Changes all the features of the website/middle section of the website positons the 3 items in each row */
+.features {
+  background-color: #F6F6F6;
+  color: #616161;
+  height: 450px;
+}
+.item {
+  float: left;
+  margin: 25px 0;
+  padding: 5px 0 20px 0;
+  text-align: center;
+  width: 33.3333333333%
+}
+.item h3 {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.item p {
+  font-size: 16px;
+  padding: 10px 0;
+}
+ /* FOOTER Bottom section of the website */
+.footer {
+  color: #D8D8D8;
+  text-align: center;
+  }
+  .footer h4 {
+    font-size: 24px;
+    margin: 50px 0 25px 0;
+    }
+.footer p {
+      color: #858585;
+      font-size: 16px;
+      padding: 3px 0;
+    }
+    .footer p a {
+      color: #793F3D;
+    }
+    #socialIcons {
+      margin: 15px 0 50px 0;
+      align-items: center;
+    }
+    #socialIcons a {
+    color: #FFFFFF;
+    }
+    /* changes twitter logo and adds a rounded border */
+    #socialIcons .fa-twitter {
+      background-color: #5DAED5;
+      border-radius: 50%;
+      padding: 5px;
+    }
+    /* changes the fb logo and adds an rounded border */
+    #socialIcons .fa-facebook {
+      background-color: #4470CF;
+      border-radius: 50%;
+      padding: 5px 8px;
+    }
